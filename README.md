@@ -30,24 +30,16 @@ HyperDiffuseNet是一种结合双曲几何、图扩散卷积网络和深度变�
 conda create -n hyperdiffuse python=3.8
 conda activate hyperdiffuse
 
-# 或使用venv
-python -m venv hyperdiffuse_env
-# Windows激活
-hyperdiffuse_env\Scripts\activate
-# Linux/Mac激活
-source hyperdiffuse_env/bin/activate
-
   
 3.安装依赖项：
-bashCopypip install -r requirements.txt
+pip install -r requirements.txt
 
 4.验证安装：
-bashCopypython test_installation.py
+python test_installation.py
 
 
 5.快速开始
 基本使用
-pythonCopy# 导入所需包
 import numpy as np
 import torch
 from HyperDiffuseNet_HyperSpatial_Attention import HyperDiffuseNet
